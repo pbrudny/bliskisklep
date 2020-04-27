@@ -488,8 +488,8 @@ h4{font-size:1.5rem;}
 .fa-shopping-bag:before{content:"&#62096;";}
 /*! CSS Used from: https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/layouts/primaryShop?v=NX0KUtr-U7oHfMWSe0bfyfEOa0hfzhhsg16RStzCGdU1 */
 h1{font-family:boldFont;}
-a{transition:all ease-out .3s;color:#f23005;display:inline-block;}
-a:hover{text-decoration:none;transform:scale(1.05);color:#fc7d61;}
+/*a{transition:all ease-out .3s;color:#f23005;display:inline-block;}*/
+/*a:hover{text-decoration:none;transform:scale(1.05);color:#fc7d61;}*/
 .shadow-box{padding:20px;background-color:#fff;font-size:16px;border-radius:10px;-webkit-box-shadow:0 0 10px 0 #916040;-moz-box-shadow:0 0 10px 0 #916040;box-shadow:0 0 10px 0 #916040;}
 @media (max-width:500px){
   .shadow-box{padding:5px;margin-bottom:10px;background-color:#fff;font-size:16px;border-radius:10px;-webkit-box-shadow:0 0 10px 0 #916040;-moz-box-shadow:0 0 10px 0 #916040;box-shadow:0 0 10px 0 #916040;}
