@@ -84,8 +84,7 @@ export default function Home() {
             </span>
                 </div>
                 <div>
-                  <a href="/oprojekcie">O projekcie</a>
-                  <i className="fas fa-rocket"></i>
+                  <Link href="/about"><a >O projekcie</a></Link>
                 </div>
               </div>
             </div>
@@ -93,7 +92,7 @@ export default function Home() {
               <p>#zostanwdomu</p>
             </div>
             <div className="add-your-shop" style={{ maxWidth: "90%" }}>
-              <a href="/kreator">
+              <Link href="/new-shop"><a>
                 <div className="add-your-shop--button-content">
                   <div className="add-your-shop--titles">
                     <p className="add-your-shop--main-title">Dodaj swój sklep!</p>
@@ -104,6 +103,7 @@ export default function Home() {
                   <img src="https://zakupyuswoich.pl/Content/images/website/sklep.svg" />
                 </div>
               </a>
+              </Link>
               <div className="add-your-shop--how-work">
                 <p className="how-work--text">Jak to działa?</p>
                 <div className="popup">
