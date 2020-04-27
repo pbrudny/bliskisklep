@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from "../components/Layout";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default function NewShop() {
   return (
@@ -273,8 +274,7 @@ export default function NewShop() {
                 <span className="normal-text">Masz pytanie, napisz:</span>
                 <span className="big-text">
             <span className="fa-stack fa-lg fa-2x">
-              <i className="fa fa-circle fa-stack-2x" />
-              <i className="fa fa-phone fa-stack-1x color-active" />
+            <FontAwesomeIcon icon={['fab', 'github']} />
             </span>
             kontakt@bliskisklep.pl
           </span>

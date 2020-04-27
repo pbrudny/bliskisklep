@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   return (<Layout>
@@ -13,7 +14,7 @@ export default function Home() {
               href="/mojezamowienia"
             >
               Moje zamówienia
-              <i className="fas fa-rocket"></i>
+              <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
             <form action="/MainAccount/LogOff" method="post">
               <input
