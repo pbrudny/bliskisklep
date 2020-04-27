@@ -1,8 +1,8 @@
-import Head from 'next/head'
 import Link from "next/link";
+import Layout from "../components/Layout";
 
 export default function Home() {
-  return (
+  return (<Layout>
     <div className="container">
       <div>
         <div className="home">
@@ -13,6 +13,7 @@ export default function Home() {
               href="/mojezamowienia"
             >
               Moje zamówienia
+              <i className="fas fa-rocket"></i>
             </a>
             <form action="/MainAccount/LogOff" method="post">
               <input
@@ -84,6 +85,7 @@ export default function Home() {
                 </div>
                 <div>
                   <a href="/oprojekcie">O projekcie</a>
+                  <i className="fas fa-rocket"></i>
                 </div>
               </div>
             </div>
@@ -364,7 +366,7 @@ export default function Home() {
                       <p className="shop--location">Cieszyn</p>
                       <p className="shop--adress" />
                       <p className="shop--url">
-                        <Link href="https://naturhousecieszyn.zakupyuswoich.pl/">
+                        <Link href="/shops/second-shop/">
                           https://naturhousecieszyn.zakupyuswoich.pl
                         </Link>
                       </p>
@@ -372,7 +374,7 @@ export default function Home() {
                       <p className="shop--name" />
                     </div>
                   </div>
-                  <Link href="https://naturhousecieszyn.zakupyuswoich.pl/">
+                  <Link href="/shops/second-shop/">
                     <button className="content-info--button-empty-products">
                       Zrób zakupy
                       <br />
@@ -471,7 +473,7 @@ export default function Home() {
           className="ui-helper-hidden-accessible"
         />
       </div>;
-
     </div>
+    </Layout>
   )
 }
