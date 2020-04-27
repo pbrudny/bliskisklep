@@ -516,3 +516,94 @@ h1{font-family:boldFont;}
 @font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
 @font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
 
+
+/* Add new shop */
+
+/*! CSS Used from: https://zakupyuswoich.pl/Content/bootstrap/styles?v=kqTgW49RypTZt74RUX21MLf_vNWxtsgPdWEakP6THB81 */
+button,input,textarea{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+textarea{overflow:auto;}
+@media print{
+  *,*:before,*:after{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input,button,textarea{font-family:inherit;font-size:inherit;line-height:inherit;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.text-center{text-align:center;}
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
+@media (min-width:768px){
+  .container{width:750px;}
+}
+@media (min-width:992px){
+  .container{width:970px;}
+}
+@media (min-width:1200px){
+  .container{width:1170px;}
+}
+.row{margin-left:-15px;margin-right:-15px;}
+.col-xs-6,.col-xs-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+.col-xs-6,.col-xs-12{float:left;}
+.col-xs-12{width:100%;}
+.col-xs-6{width:50%;}
+label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:bold;}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
+.form-control::-moz-placeholder{color:#999;opacity:1;}
+.form-control:-ms-input-placeholder{color:#999;}
+.form-control::-webkit-input-placeholder{color:#999;}
+.form-control::-ms-expand{border:0;background-color:transparent;}
+textarea.form-control{height:auto;}
+.form-group{margin-bottom:15px;}
+.btn{display:inline-block;margin-bottom:0;font-weight:normal;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn:focus,.btn:active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.btn:hover,.btn:focus{color:#333;text-decoration:none;}
+.btn:active{outline:0;background-image:none;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125);}
+.input-group{position:relative;display:table;border-collapse:separate;}
+.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0;}
+.input-group .form-control:focus{z-index:3;}
+.input-group-addon,.input-group .form-control{display:table-cell;}
+.input-group-addon{width:1%;white-space:nowrap;vertical-align:middle;}
+.input-group-addon{padding:6px 12px;font-size:14px;font-weight:normal;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px;}
+.input-group .form-control:first-child{border-bottom-right-radius:0;border-top-right-radius:0;}
+.input-group-addon:last-child{border-bottom-left-radius:0;border-top-left-radius:0;}
+.input-group-addon:last-child{border-left:0;}
+.container:before,.container:after,.row:before,.row:after{content:" ";display:table;}
+.container:after,.row:after{clear:both;}
+/*! CSS Used from: https://zakupyuswoich.pl/Content/website/styles?v=z8iMEQ8FTazGe_SY29YEfR1boGqYzf35y8Eh_O6CyQE1 */
+.title{padding:3px 0;font-size:30px;}
+.btn{border-radius:12px;font-size:20px;}
+#website-wizzard{position:relative;padding:100px 15px;}
+@media (max-width:768px){
+  #website-wizzard .container{padding-left:120px;}
+}
+#website-wizzard input,#website-wizzard textarea{border-radius:0;outline:none;box-shadow:none;}
+#website-wizzard input:focus,#website-wizzard textarea:focus{border:thin solid #fff;}
+#website-wizzard .input-group-addon{border-radius:0;color:#fff;background-color:#323b40;}
+#website-wizzard .title{text-align:center;font-size:40px;padding:20px 0;}
+#website-wizzard .btn{border-radius:0;}
+#website-wizzard .btn#ww-prev{background-color:#fff;}
+#website-wizzard .btn#ww-prev .icon-wizzard{width:110px;height:87px;background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -21px -662px;}
+#website-wizzard .btn#ww-prev:hover{background-color:#323b40;color:#fff;}
+#website-wizzard .btn#ww-prev:hover .icon-wizzard{background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -131px -662px;}
+#website-wizzard .btn#ww-prev:focus{outline:none;}
+#website-wizzard .btn#ww-next{background-color:#fff;}
+#website-wizzard .btn#ww-next .icon-wizzard{width:110px;height:87px;background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -21px -569px;}
+#website-wizzard .btn#ww-next:hover{background-color:#323b40;color:#fff;}
+#website-wizzard .btn#ww-next:hover .icon-wizzard{background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -131px -570px;}
+#website-wizzard .btn#ww-next:focus{outline:none;}
+#website-wizzard #step-panel{text-align:center;font-size:0;}
+#website-wizzard #step-panel div{background-color:#fff;display:inline-block;}
+#website-wizzard #step-panel div.active#ww-step-1{background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -131px -18px;}
+#website-wizzard #step-panel div#ww-step-1{width:110px;height:105px;background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -21px -18px;}
+#website-wizzard #step-panel div#ww-step-5{width:110px;height:105px;background:url(https://zakupyuswoich.pl/Content/images/website/iconSetWizzard.jpg) -21px -452px;}
+.wizardwebsitebackground{background-color:#fff;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;max-width:800px;border-radius:10px;}
+.containerwizardmargin{max-width:700px;margin-left:auto;margin-right:auto;padding:0;padding-left:0!important;}
+.websitewizardCenter{margin-left:10px;margin-right:10px;}
+.titleWizards1{margin-left:20px!important;margin-right:20px!important;}
+.minHeightLayout{min-height:100%!important;}
