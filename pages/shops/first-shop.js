@@ -62,9 +62,11 @@ export default function FirstShop() {
               Euro sklep
             </h1>
             <div className="text-center">
-              <a href="/zakupy" className="btn-do-shop">
-                <FontAwesomeIcon icon={['fab', 'github']} /> Rozpocznij zakupy...
-              </a>
+              <Link href="/shops/first-shop-buy">
+                <a className="btn-do-shop">
+                  <FontAwesomeIcon icon={['fab', 'github']} /> Rozpocznij zakupy...
+                </a>
+              </Link>
             </div>
           </div>
         </div>

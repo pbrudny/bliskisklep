@@ -90,9 +90,10 @@ export default function SecondShop() {
                   Euro sklep
                 </h1>
                 <div className="text-center">
-                  <a href="/zakupy" className="btn-do-shop">
+                  <Link href="/shops/second-shop-buy">
+                    <a className="btn-do-shop">
                     <FontAwesomeIcon icon={['fab', 'github']} /> Rozpocznij zakupy...
-                  </a>
+                  </a></Link>
                 </div>
               </div>
             </div>

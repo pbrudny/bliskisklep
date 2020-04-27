@@ -8,7 +8,7 @@ export default function NewShop() {
       <div>
         <a href="/">
           <div className="top-section--logo logo_shop_User_login">
-            <img src="https://bliskisklep.pl/Content/images/website/logo.svg" />
+            <img src="https://zakupyuswoich.pl/Content/images/website/logo.svg" />
           </div>
         </a>
         <div id="website-wizzard" className="container minHeightLayout">
