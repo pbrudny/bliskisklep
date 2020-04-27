@@ -445,7 +445,7 @@ export default function Home() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="pull-left">
-                  ó 2020 Realizacja zakupyuswoich.pl Wszelkie prawa zastrzeżone.{" "}
+                  2020 Realizacja zakupyuswoich.pl Wszelkie prawa zastrzeżone.{" "}
                   <small>Wersja aplikacji: 1.0.9</small>
                 </div>
                 <div className="pull-right">
