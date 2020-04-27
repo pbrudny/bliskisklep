@@ -201,7 +201,7 @@ export default function Home() {
               <div className="search-places">
                 <input
                   type="search"
-                  defaultValue
+                  defaultValue={'Cieszyn'}
                   className="seach-places--name ui-autocomplete-input"
                   placeholder="Miejscowość"
                   autoComplete="off"
