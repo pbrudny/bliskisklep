@@ -29,26 +29,26 @@ export default function FirstShop() {
               fb-iframe-plugin-query="action=like&app_id=&container_width=0&href=https%3A%2F%2Feurosklepgrzegorzczyz.zakupyuswoich.pl%2F&layout=button_count&locale=pl_PL&sdk=joey&share=true&size=small"
             >
         <span style={{ verticalAlign: "bottom", width: 178, height: 20 }}>
-          <iframe
-            name="f29ec2c591938d4"
-            width="1000px"
-            height="1000px"
-            data-testid="fb:like Facebook Social Plugin"
-            title="fb:like Facebook Social Plugin"
-            frameBorder={0}
-            allowTransparency="true"
-            allowFullScreen="true"
-            scrolling="no"
-            allow="encrypted-media"
-            src="https://www.facebook.com/v6.0/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1b16e6a1e6fc54%26domain%3Deurosklepgrzegorzczyz.zakupyuswoich.pl%26origin%3Dhttps%253A%252F%252Feurosklepgrzegorzczyz.zakupyuswoich.pl%252Ff193d690bc1bf8%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Feurosklepgrzegorzczyz.zakupyuswoich.pl%2F&layout=button_count&locale=pl_PL&sdk=joey&share=true&size=small"
-            style={{
-              border: "none",
-              visibility: "visible",
-              width: 178,
-              height: 20
-            }}
-            className
-          />
+          {/*<iframe*/}
+          {/*  name="f29ec2c591938d4"*/}
+          {/*  width="1000px"*/}
+          {/*  height="1000px"*/}
+          {/*  data-testid="fb:like Facebook Social Plugin"*/}
+          {/*  title="fb:like Facebook Social Plugin"*/}
+          {/*  frameBorder={0}*/}
+          {/*  allowTransparency="true"*/}
+          {/*  allowFullScreen="true"*/}
+          {/*  scrolling="no"*/}
+          {/*  allow="encrypted-media"*/}
+          {/*  src="https://www.facebook.com/v6.0/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1b16e6a1e6fc54%26domain%3Deurosklepgrzegorzczyz.zakupyuswoich.pl%26origin%3Dhttps%253A%252F%252Feurosklepgrzegorzczyz.zakupyuswoich.pl%252Ff193d690bc1bf8%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Feurosklepgrzegorzczyz.zakupyuswoich.pl%2F&layout=button_count&locale=pl_PL&sdk=joey&share=true&size=small"*/}
+          {/*  style={{*/}
+          {/*    border: "none",*/}
+          {/*    visibility: "visible",*/}
+          {/*    width: 178,*/}
+          {/*    height: 20*/}
+          {/*  }}*/}
+          {/*  className*/}
+          {/*/>*/}
         </span>
             </div>
             <center style={{ marginTop: 10 }}>
@@ -137,6 +137,20 @@ export default function FirstShop() {
           </div>
         </div>
       </div>;
+      <style jsx>{`
+        form {
+          border-bottom: 1px solid #ececec;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        input {
+          display: block;
+          margin-bottom: 10px;
+        }
+      `}</style>
 
     </Layout>
   )

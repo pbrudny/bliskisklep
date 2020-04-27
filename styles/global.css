@@ -607,3 +607,236 @@ textarea.form-control{height:auto;}
 .websitewizardCenter{margin-left:10px;margin-right:10px;}
 .titleWizards1{margin-left:20px!important;margin-right:20px!important;}
 .minHeightLayout{min-height:100%!important;}
+
+
+
+/*** buy **/
+/*buy*/
+/*! CSS Used from: https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/layoutBase?v=4nrzocCuYkIT0TwzvD331ZY233-vUggU0CoD9S_D8jI1 */
+*,*::before,*::after{box-sizing:border-box;}
+/*body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}*/
+/*[tabindex="-1"]:focus{outline:0!important;}*/
+/*h1,h4,h5{margin-top:0;margin-bottom:.5rem;}*/
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+a:not([href]):not([tabindex]){color:inherit;text-decoration:none;}
+a:not([href]):not([tabindex]):hover,a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none;}
+a:not([href]):not([tabindex]):focus{outline:0;}
+img{vertical-align:middle;border-style:none;}
+table{border-collapse:collapse;}
+th{text-align:inherit;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+/*input,button,select{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}*/
+button,input{overflow:visible;}
+button,select{text-transform:none;}
+button,html [type="button"]{-webkit-appearance:button;}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner{padding:0;border-style:none;}
+h1,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h1{font-size:2.5rem;}
+h4{font-size:1.5rem;}
+h5{font-size:1.25rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+  .container{max-width:540px;}
+}
+@media (min-width:768px){
+  .container{max-width:720px;}
+}
+@media (min-width:992px){
+  .container{max-width:960px;}
+}
+@media (min-width:1200px){
+  .container{max-width:1140px;}
+}
+.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col,.col-md-5,.col-md-7{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+.col{flex-basis:0;flex-grow:1;max-width:100%;}
+@media (min-width:768px){
+  .col-md-5{flex:0 0 41.66667%;max-width:41.66667%;}
+  .col-md-7{flex:0 0 58.33333%;max-width:58.33333%;}
+}
+.table{width:100%;max-width:100%;margin-bottom:1rem;background-color:transparent;}
+.table th,.table td{padding:.75rem;vertical-align:top;border-top:1px solid #dee2e6;}
+.table thead th{vertical-align:bottom;border-bottom:2px solid #dee2e6;}
+.table-sm th,.table-sm td{padding:.3rem;}
+.form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+.form-control::-ms-expand{background-color:transparent;border:0;}
+.form-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.form-control::placeholder{color:#6c757d;opacity:1;}
+.form-control:disabled{background-color:#e9ecef;opacity:1;}
+select.form-control:not([size]):not([multiple]){height:calc(2.25rem + 2px);}
+.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+.btn:hover,.btn:focus{text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn:disabled{opacity:.65;}
+.btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d;}
+.btn-secondary:hover{color:#fff;background-color:#5a6268;border-color:#545b62;}
+.btn-secondary:focus{box-shadow:0 0 0 .2rem rgba(108,117,125,.5);}
+.btn-secondary:disabled{color:#fff;background-color:#6c757d;border-color:#6c757d;}
+.fade{opacity:0;transition:opacity .15s linear;}
+.fade.show{opacity:1;}
+.alert{position:relative;padding:.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:.25rem;}
+.alert-dismissible{padding-right:4rem;}
+.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit;}
+.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba;}
+.close{float:right;font-size:1.5rem;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.5;}
+.close:hover,.close:focus{color:#000;text-decoration:none;opacity:.75;}
+button.close{padding:0;background-color:transparent;border:0;-webkit-appearance:none;}
+.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;outline:0;}
+.modal-dialog{position:relative;width:auto;margin:.5rem;pointer-events:none;}
+.modal.fade .modal-dialog{transition:transform .3s ease-out;transform:translate(0,-25%);}
+.modal-content{position:relative;display:flex;flex-direction:column;width:100%;pointer-events:auto;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:.3rem;outline:0;}
+.modal-header{display:flex;align-items:flex-start;justify-content:space-between;padding:1rem;border-bottom:1px solid #e9ecef;border-top-left-radius:.3rem;border-top-right-radius:.3rem;}
+.modal-header .close{padding:1rem;margin:-1rem -1rem -1rem auto;}
+.modal-title{margin-bottom:0;line-height:1.5;}
+.modal-body{position:relative;flex:1 1 auto;padding:1rem;}
+.modal-footer{display:flex;align-items:center;justify-content:flex-end;padding:1rem;border-top:1px solid #e9ecef;}
+@media (min-width:576px){
+  .modal-dialog{max-width:500px;margin:1.75rem auto;}
+}
+.d-none{display:none!important;}
+.d-inline-block{display:inline-block!important;}
+@media (min-width:576px){
+  .d-sm-block{display:block!important;}
+}
+.justify-content-center{justify-content:center!important;}
+.float-right{float:right!important;}
+.mt-3{margin-top:1rem!important;}
+.mt-5{margin-top:3rem!important;}
+.p-5{padding:3rem!important;}
+.text-center{text-align:center!important;}
+.text-danger{color:#dc3545!important;}
+@media print{
+  *,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
+  a:not(.btn){text-decoration:underline;}
+  thead{display:table-header-group;}
+  tr,img{page-break-inside:avoid;}
+  body{min-width:992px!important;}
+  .container{min-width:992px!important;}
+  .table{border-collapse:collapse!important;}
+  .table td,.table th{background-color:#fff!important;}
+}
+.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:black;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);opacity:0.8;display:none;}
+.lightbox{position:absolute;left:0;width:100%;z-index:10000;text-align:center;line-height:0;font-weight:normal;outline:none;}
+.lightbox .lb-image{display:block;height:auto;max-width:inherit;max-height:none;border-radius:3px;border:4px solid white;}
+.lb-outerContainer{position:relative;*zoom:1;width:250px;height:250px;margin:0 auto;border-radius:4px;background-color:white;}
+.lb-outerContainer:after{content:"";display:table;clear:both;}
+.lb-loader{position:absolute;top:43%;left:0;height:25%;width:100%;text-align:center;line-height:0;}
+.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url(https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/Plugins/Lightbox/images/loading.gif) no-repeat;}
+.lb-nav{position:absolute;top:0;left:0;height:100%;width:100%;z-index:10;}
+.lb-nav a{outline:none;background-image:url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');}
+.lb-prev,.lb-next{height:100%;cursor:pointer;display:block;}
+.lb-nav a.lb-prev{width:34%;left:0;float:left;background:url(https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/Plugins/Lightbox/images/prev.png) left 48% no-repeat;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;-webkit-transition:opacity 0.6s;-moz-transition:opacity 0.6s;-o-transition:opacity 0.6s;transition:opacity 0.6s;}
+.lb-nav a.lb-prev:hover{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1;}
+.lb-nav a.lb-next{width:64%;right:0;float:right;background:url(https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/Plugins/Lightbox/images/next.png) right 48% no-repeat;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;-webkit-transition:opacity 0.6s;-moz-transition:opacity 0.6s;-o-transition:opacity 0.6s;transition:opacity 0.6s;}
+.lb-nav a.lb-next:hover{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1;}
+.lb-dataContainer{margin:0 auto;padding-top:5px;*zoom:1;width:100%;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+.lb-dataContainer:after{content:"";display:table;clear:both;}
+.lb-data{padding:0 4px;color:#ccc;}
+.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em;}
+.lb-data .lb-caption{font-size:13px;font-weight:bold;line-height:1em;}
+.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999999;}
+.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/Plugins/Lightbox/images/close.png) top right no-repeat;text-align:right;outline:none;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);opacity:0.7;-webkit-transition:opacity 0.2s;-moz-transition:opacity 0.2s;-o-transition:opacity 0.2s;transition:opacity 0.2s;}
+.lb-data .lb-close:hover{cursor:pointer;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1;}
+/*! CSS Used from: https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/fontawesome?v=k1HSroC97dfcjl9vQWe1zSBOzL0Fv3FeOoqP1gCOGjc1 */
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-cart-plus:before{content:"&#61975;";}
+/*! CSS Used from: https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/layouts/primaryShop?v=NX0KUtr-U7oHfMWSe0bfyfEOa0hfzhhsg16RStzCGdU1 */
+body{color:#000;font-family:regularFont;background-image:url(https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/images/website/bg.jpg);background-position:bottom;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;padding-top:20px;padding-bottom:120px;}
+@media (max-width:576px){
+  body{padding-top:74px;}
+}
+h1{font-family:boldFont;}
+input,select{transition:all ease-out .3s;border-radius:0!important;border:thin solid #d9c7b8!important;box-shadow:none!important;}
+input:focus,select:focus{border-color:#f2cb05!important;}
+input.full-bg,select.full-bg{transition:all ease-out .3s;border:none!important;background-color:#e2d4c9!important;}
+input.full-bg:focus,select.full-bg:focus{background-color:#f2cb05!important;}
+a{transition:all ease-out .3s;color:#f23005;display:inline-block;}
+a:hover{text-decoration:none;transform:scale(1.05);color:#fc7d61;}
+.btn{transition:all ease-out .3s;border-radius:10px;background-color:#f23005;color:#fff;padding:10px 40px;border:none;}
+.btn:hover{transform:scale(1.05);background-color:#c02604;color:#fff;}
+.btn.cart{padding:2px 10px;font-size:smaller;}
+.btn-secondary{transition:all ease-out .3s;border-radius:10px;background-color:#d9c7b8;color:#000;padding:10px 40px;border:none;}
+.btn-secondary:hover{transform:scale(1.05);background-color:#c7ad97;color:#000;}
+.modal-content{border-radius:0;}
+.shadow-box{padding:20px;background-color:#fff;font-size:16px;border-radius:10px;-webkit-box-shadow:0 0 10px 0 #916040;-moz-box-shadow:0 0 10px 0 #916040;box-shadow:0 0 10px 0 #916040;}
+.m-width-100{max-width:100px;}
+.text-bold{font-family:boldFont;}
+.text-smaller{font-size:smaller;}
+.text-dark-secondary{color:#c7ad97;}
+@media (max-width:500px){
+  .shadow-box{padding:5px;margin-bottom:10px;background-color:#fff;font-size:16px;border-radius:10px;-webkit-box-shadow:0 0 10px 0 #916040;-moz-box-shadow:0 0 10px 0 #916040;box-shadow:0 0 10px 0 #916040;}
+  .btn-secondary{transition:all ease-out .3s;border-radius:10px;background-color:#d9c7b8;color:#000;padding:3px 10px;border:none;}
+  .btn-secondary:hover{transform:scale(1.05);background-color:#c7ad97;color:#000;}
+}
+#shop-logo{padding:5px;background-color:#e2d4c9!important;text-align:left;float:left;}
+#shop-logo img{height:120px;}
+@media (max-width:800px){
+  #shop-logo{padding:5px;background-color:#e2d4c9!important;text-align:left;float:left;}
+  #shop-logo img{height:85px;width:200px;}
+}
+@media (max-width:500px){
+  #shop-logo{padding:5px;background-color:#e2d4c9!important;text-align:left;float:left;}
+  #shop-logo img{height:90px;width:180px;}
+}
+#products-table .products-list--product-minature{width:50px;}
+.modal-dialog--content{align-self:center;}
+.clickable{cursor:pointer;}
+/*! CSS Used from: Embedded */
+.cc-color-override-1021095783.cc-window{color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
+.cc-color-override-1021095783 .cc-btn{color:rgb(0, 0, 0);border-color:transparent;background-color:rgb(159, 159, 159);}
+.cc-color-override-1021095783 .cc-btn:hover,.cc-color-override-1021095783 .cc-btn:focus{background-color:rgb(197, 197, 197);}
+/*! CSS Used from: Embedded */
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;}
+.fb_reset>div{overflow:hidden;}
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.2/cookieconsent.min.css */
+.cc-window{opacity:1;transition:opacity 1s ease;}
+.cc-window.cc-invisible{opacity:0;}
+.cc-window{position:fixed;overflow:hidden;box-sizing:border-box;font-family:Helvetica,Calibri,Arial,sans-serif;font-size:16px;line-height:1.5em;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;z-index:9999;}
+.cc-window.cc-banner{padding:1em 1.8em;width:100%;-ms-flex-direction:row;flex-direction:row;}
+.cc-btn{cursor:pointer;}
+.cc-btn{display:block;padding:.4em .8em;font-size:.9em;font-weight:700;border-width:2px;border-style:solid;text-align:center;white-space:nowrap;}
+.cc-banner .cc-btn:last-child{min-width:140px;}
+.cc-bottom{bottom:1em;}
+.cc-window.cc-banner{-ms-flex-align:center;align-items:center;}
+.cc-banner.cc-bottom{left:0;right:0;bottom:0;}
+.cc-banner .cc-message{-ms-flex:1;flex:1;}
+.cc-compliance{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:justify;align-content:space-between;}
+.cc-compliance>.cc-btn{-ms-flex:1;flex:1;}
+@media print{
+  .cc-window{display:none;}
+}
+@media screen and (max-width:900px){
+  .cc-btn{white-space:normal;}
+}
+@media screen and (max-width:414px) and (orientation:portrait),screen and (max-width:736px) and (orientation:landscape){
+  .cc-window.cc-bottom{bottom:0;}
+  .cc-window.cc-banner{left:0;right:0;}
+  .cc-window.cc-banner{-ms-flex-direction:column;flex-direction:column;}
+  .cc-window.cc-banner .cc-compliance{-ms-flex:1;flex:1;}
+  .cc-window .cc-message{margin-bottom:1em;}
+  .cc-window.cc-banner{-ms-flex-align:unset;align-items:unset;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'FontAwesome';src:url('https://eurosklepgrzegorzczyz.zakupyuswoich.pl/fonts/fontawesome-webfont.eot');src:url('https://eurosklepgrzegorzczyz.zakupyuswoich.pl/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'),url('https://eurosklepgrzegorzczyz.zakupyuswoich.pl/fonts/fontawesome-webfont.woff') format('woff'),url('https://eurosklepgrzegorzczyz.zakupyuswoich.pl/fonts/fontawesome-webfont.ttf') format('truetype'),url('https://eurosklepgrzegorzczyz.zakupyuswoich.pl/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'regularFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
+@font-face{font-family:'boldFont';src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot");src:url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.eot#iefix") format("embedded-opentype"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.woff") format("woff"),url("https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/website/layoutsFonts/OpenSans-ExtraBold.ttf") format("truetype");font-weight:bold;font-style:oblique;}
