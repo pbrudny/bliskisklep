@@ -83,7 +83,7 @@ export default function About() {
               <p>#zostanwdomu #zakupyuswoich #WspieramyBiznesZDomu</p>
             </div>
             <div className="add-your-shop" style={{ maxWidth: "90%" }}>
-              <a href="/kreator">
+             <a href="/new-shop">
                 <div className="add-your-shop--button-content">
                   <div className="add-your-shop--titles">
                     <p className="add-your-shop--main-title">Dodaj swój sklep!</p>

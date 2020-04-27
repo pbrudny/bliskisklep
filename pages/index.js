@@ -172,7 +172,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="popup-btn">
-                    <a href="/kreator">
+                    <a href="/new-shop">
                       <div className="popup-btn--button-content">
                         <div className="popup-btn--titles">
                           <p className="popup-btn--main-title">
