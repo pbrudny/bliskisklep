@@ -449,13 +449,13 @@ export default function Home() {
                   <small>Wersja aplikacji: 1.0.9</small>
                 </div>
                 <div className="pull-right">
-                  <a
+                  <Link href={"/rules"}><a
                     className="footer_redulations "
                     style={{ color: "white!important" }}
-                    href="/regulamin"
                   >
                     REGULAMIN
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
