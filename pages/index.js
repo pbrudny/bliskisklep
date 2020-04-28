@@ -8,13 +8,11 @@ export default function Home() {
       <div>
         <div className="home">
           <div className="users-account">
-            <h4 className="userpanel--username">Witaj: pbrudny@gmail.com</h4>
             <a
               className="btn btn-transparent-white userpanel-btn"
-              href="/mojezamowienia"
+              href="/register"
             >
-              Moje zamówienia
-              <FontAwesomeIcon icon={['fab', 'github']} />
+              Zarejestruj się jako klient
             </a>
             <form action="/MainAccount/LogOff" method="post">
               <input
