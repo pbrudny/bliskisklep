@@ -1,4 +1,5 @@
 import { GraphQLClient } from 'graphql-request';
+import Shop from "../../components/Shop";
 
 const graphcms = new GraphQLClient(
   'https://api-eu-central-1.graphcms.com/v2/ck9ebi5s101jf01xjdfbi2vrj/master'
@@ -10,6 +11,19 @@ export async function getStaticProps({ params }) {
     query ShopPageQuery($slug: String!) {
       shop(where: { slug: $slug }) {
         name
+        city
+        address
+        delivery
+        deliveryHours
+        deliveryNote
+        deliveryPricing
+        deliveryDistance
+        pickupHours
+        pickupNote
+        personalPickup
+        logo {
+          url
+        }
         description
       }
     }
@@ -40,9 +54,8 @@ export async function getStaticPaths() {
   };
 }
 
-export default ({ shop }) => (
-  <React.Fragment>
-    <h1>{shop.name}</h1>
-    <p>{shop.description}</p>
-  </React.Fragment>
-);
+export default ({ shop }) => {
+  return (
+    <Shop shop={shop} />
+  )
+};

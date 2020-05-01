@@ -17,8 +17,6 @@ export async function getStaticProps() {
           city
           address
           name
-          delivery
-          personalPickup
         }
       }
     `

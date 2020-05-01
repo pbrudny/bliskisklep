@@ -1,14 +1,19 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../../components/Layout'
+import Layout from './Layout'
 // import styles from './Shop.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function FirstShop() {
+export default function Shop(props) {
+  const { shop } = props;
+
   return (<Layout>
       <div className="container">
         <div className="row">
           <div className="col">
+            <div className="top-section--logo logo_shop_User_login">
+              <img src={shop.logo.url} style={{width: '150px'}}/>
+            </div>
             <div id="fb-root" className=" fb_reset">
               <div
                 style={{ position: "absolute", top: "-10000px", width: 0, height: 0 }}
@@ -51,15 +56,15 @@ export default function FirstShop() {
           {/*/>*/}
         </span>
             </div>
-            <center style={{ marginTop: 10 }}>
+            <div style={{ marginTop: 10, textAlign: 'center' }}>
               <Link className="center" href="/">
                 <div className="top-section--logo logo_shop_User_login">
-                  <img src="https://eurosklepgrzegorzczyz.zakupyuswoich.pl/Content/images/website/logo.svg" />
+                  <img src={'https://zakupyuswoich.pl/Content/images/website/logo.svg'} />
                 </div>
               </Link>
-            </center>
+            </div>
             <h1 id="shop-title" className="text-center">
-              Euro sklep
+              {shop.name}
             </h1>
             <div className="text-center">
               <a href="/zakupy" className="btn-do-shop">
@@ -76,18 +81,18 @@ export default function FirstShop() {
               </h4>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
-                  <dsada className="pull-left"> JULIANA TUWIMA 41</dsada>{" "}
-                  <dsada className="pull-right">Kaczyce</dsada>
+                  <dsada className="pull-left"> {shop.address}</dsada>{" "}
+                  <dsada className="pull-right">{shop.city}</dsada>
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   otwarty w godzinach
-                  <span className="badge badge-success badge-pill">6-20</span>
+                  <span className="badge badge-success badge-pill">{shop.openingHours}</span>
                 </li>
                 <li className="list-group-item">
-                  <FontAwesomeIcon icon={['fab', 'github']} /> Grzegorzczyz.wg@gmail.com
+                  <FontAwesomeIcon icon={['fab', 'github']} /> {shop.email}
                 </li>
                 <li className="list-group-item">
-                  <FontAwesomeIcon icon={['fab', 'github']} /> 793575239
+                  <FontAwesomeIcon icon={['fab', 'github']} /> {shop.phone}
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   opłata za pakowanie
@@ -104,19 +109,18 @@ export default function FirstShop() {
               <ul className="list-group list-group-flush">
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   w godzinach
-                  <span className="badge badge-success badge-pill">BRAK</span>
+                  <span className="badge badge-success badge-pill">{shop.deliveryHours}</span>
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   cena
-                  <span className="badge badge-secondary badge-pill">0,00 zł</span>
+                  <span className="badge badge-secondary badge-pill">{shop.deliveryPricing}</span>
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   zasięg dostawy
-                  <span className="badge badge-secondary badge-pill">20 km</span>
+                  <span className="badge badge-secondary badge-pill">{shop.deliveryDistance}</span>
                 </li>
                 <li className="list-group-item">
-                  GODZINY DOSTAW MOGĄ SIĘ RÓŻNIĆ W ZALEŻNOŚCI OD ILOŚCI ZAMÓWIEŃ, SĄ
-                  USTALANE INDYWIDUALNIE
+                  {shop.deliveryNote}
                 </li>
               </ul>
             </div>
@@ -129,9 +133,9 @@ export default function FirstShop() {
               <ul className="list-group list-group-flush">
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   w godzinach
-                  <span className="badge badge-success badge-pill">BRAK</span>
+                  <span className="badge badge-success badge-pill">{shop.pickupHours}</span>
                 </li>
-                <li className="list-group-item">USTALANE INDYWIDUALNIE</li>
+                <li className="list-group-item">{shop.pickupNote}</li>
               </ul>
             </div>
           </div>
